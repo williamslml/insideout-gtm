@@ -52,10 +52,10 @@ json-server --watch db.json --port 3000
 
 -Revisar src/debug/answers.md para problemas detectados y soluciones sugeridas:
 
-   -Formato incorrecto de precio.
+   1.Formato incorrecto de precio.
    
-   -Eventos bloqueados por consentimiento.
+   2.Eventos bloqueados por consentimiento.
    
-   -Triggers Custom HTML no disparados en algunos casos.
+   3.Triggers Custom HTML no disparados en algunos casos.
    
 -Logs de consola ayudan a verificar el flujo de eventos y la prevención de duplicados.
