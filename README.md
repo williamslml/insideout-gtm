@@ -36,10 +36,15 @@ json-server --watch db.json --port 3000
 ## Supuestos y decisiones
 
 -Se utilizó JavaScript puro sin frameworks para compatibilidad con cualquier navegador y entorno GTM.
+
 -Prevenir múltiples clics en add_to_cart en menos de 500ms con preventDuplicate.
+
 -Eventos sign_up_click se registran solo una vez por sesión con oncePerSession usando sessionStorage.
+
 -Los precios y valores se parsean a float para cumplir con GA4.
+
 -add_to_cart se envía a un endpoint simulado con timeout, retries y control de idempotencia.
+
 -Tests incluidos en tests/tests.html para validar funciones críticas sin depender de servidor.
 
 
