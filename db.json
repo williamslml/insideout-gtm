@@ -1,0 +1,52 @@
+{
+  "events": [
+    {
+      "id": "d97e",
+      "event_name": "add_to_cart",
+      "client_ts": "2025-09-29T23:28:24.373Z",
+      "items": [
+        {
+          "item_id": "SKU-123",
+          "item_name": "Camiseta Oversize",
+          "price": 59.9
+        }
+      ]
+    },
+    {
+      "id": "6717",
+      "event_name": "add_to_cart",
+      "client_ts": "2025-09-29T23:35:08.245Z",
+      "items": [
+        {
+          "item_id": "SKU-123",
+          "item_name": "Camiseta Oversize",
+          "price": 59.9
+        }
+      ]
+    },
+    {
+      "id": "926d",
+      "event_name": "add_to_cart",
+      "client_ts": "2025-09-29T23:35:31.413Z",
+      "items": [
+        {
+          "item_id": "SKU-123",
+          "item_name": "Camiseta Oversize",
+          "price": 59.9
+        }
+      ]
+    },
+    {
+      "id": "e7fa",
+      "event_name": "add_to_cart",
+      "client_ts": "2025-09-29T23:36:58.894Z",
+      "items": [
+        {
+          "item_id": "SKU-123",
+          "item_name": "Camiseta Oversize",
+          "price": 59.9
+        }
+      ]
+    }
+  ]
+}

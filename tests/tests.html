@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Tests InsideOut Store</title>
+<script src="../src/variables/getQueryParam.js"></script>
+<script src="../src/utils/dedupe.js"></script>
+<script src="../src/tags/addToCartDispatcher.js"></script>
+<script>
+window.testGetQueryParam = () => {
+  console.log(getQueryParam('https://example.com?utm_source=google', 'utm_source'));
+};
+
+window.testDedupe = () => {
+  console.log(preventDuplicate('add_to_cart', 500));
+  setTimeout(() => console.log(preventDuplicate('add_to_cart', 500)), 100);
+};
+
+window.testOncePerSession = () => {
+  console.log(oncePerSession('sign_up_click'));
+  console.log(oncePerSession('sign_up_click'));
+};
+
+window.testSendAddToCart = () => {
+  sendAddToCart({ item_id:'SKU-123', item_name:'Camiseta Oversize', price:59.9 });
+};
+</script>
+</head>
+<body>
+<h1>Tests InsideOut Store</h1>
+<button onclick="testGetQueryParam()">Test getQueryParam</button>
+<button onclick="testDedupe()">Test preventDuplicate</button>
+<button onclick="testOncePerSession()">Test oncePerSession</button>
+<button onclick="testSendAddToCart()">Test sendAddToCart</button>
+</body>
+</html>
