@@ -1,7 +1,7 @@
 # InsideOut Store - Prueba Técnica GTM
 
 ## Descripción
-Proyecto de prueba técnica para InsideOut Store.  
+Este proyecto es una prueba técnica para InsideOut Store, un e-commerce ficticio. Se trata de instrumentar eventos con dataLayer y crear Custom HTML Tags y Variables para GTM usando JavaScript. Implementa prevención de doble clic en eventos, registro “once per session” para el sign up, envío de eventos add_to_cart a un endpoint simulado con retries y timeout, y tests simples para validar funciones como lectura de parámetros, deduplicación y envío de eventos sin romper la interfaz.
 
 
 ## Requisitos
